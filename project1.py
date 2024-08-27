@@ -1,15 +1,17 @@
-favorite_places = {
-    "Alice": ["Paris", "New York", "Tokyo"],
-    "Bob": ["London", "Berlin", "Madrid"],
-    "Charlie": ["Sydney", "Melbourne", "Brisbane"]
-}
+file = open('python.txt', 'r')
+print("Using read() mode character wise:")
+s1 = file.read(19)
+print(s1)
+file.close() 
 
 
-for person, places in favorite_places.items():
-    print(f"{person} likes the following places:")
-    for place in places:
-        print(f"- {place}")
-    print() 
+
+
+
+
+
+
+
 
 
 
