@@ -25,3 +25,4 @@ def analyze_text(input_text):
 input_text = str(input("Enter a Sentence"))
 result = analyze_text(input_text)
 print(result)
+
